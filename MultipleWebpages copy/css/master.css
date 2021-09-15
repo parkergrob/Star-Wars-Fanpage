@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+body {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.container:hover {
+  width: 95%
+  margin: auto;
+  background-color: black;
+  padding: 1em;
+  height: 100vh;
+  border-radius: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+h2{
+  font-family: 'Pathway Gothic One', cursive;
+  font-weight: 700;
+  font-size: 36px;
+  text-shadow: 2px 2px black;
+}
+
+.column {
+  flex: 25%;
+  margin: 1%;
+  border-radius: 20px;
+}
+
+.square-image{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.yoda-col {
+  flex: 40%;
+  margin: 1%;
+  background-color: #112B0A;
+  color: #8C9F98;
+}
+
+.maul-col:hover {
+  flex: 40%;
+  margin: 1%;
+  background-color: red;
+  border-radius: 20px;
+  border: 4px solid red;
+  font-size:25px;
+}
+
+.vader-col:hover {
+  flex: 40%;
+  margin: 1%;
+  background-color: darkred;
+  border-radius: 20px;
+  border: 4px solid black;
+  font-size: 25px;
+}
+
+.ahsoka-col {
+  flex: 40%;
+  margin: 1%;
+  background-color: lightblue;
+  border: 4px solid black;
+}
+
+.menu-title {
+  text-align:center;
+  color: #FFE81F;
+}
+
+.main-title {
+  font-family: 'Pathway Gothic One',cursive;
+  background-color: #FFE81F;
+  width: 50%;
+  margin: 0 auto 1em auto;
+  border: 4px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+#character-title{
+  text-align: center;
+  color: black;
+
+}
+
+#hr-1 {
+  width: 80%;
+}
