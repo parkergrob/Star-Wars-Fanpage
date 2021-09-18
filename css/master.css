@@ -6,12 +6,12 @@ body {
 }
 
 .container:hover {
-  width: 95%
+  width: 100%;
   margin: auto;
-  background-color: black;
   padding: 1em;
-  height: 100vh;
+  height: 100%;
   border-radius: 20px;
+  background-image: url("https://pbs.twimg.com/media/EVvJpmgU8AAEq2q.jpg:large");
 }
 
 .row {
@@ -31,9 +31,11 @@ h2{
   border-radius: 20px;
 }
 
-.square-image{
-  width: 100%;
-  border-radius: 15px;
+.square-image {
+  width: 105%;
+  border-radius: 20px;
+  height: 54%;
+  border: 2px solid #FFE81F;
 }
 
 .yoda-col {
@@ -41,9 +43,10 @@ h2{
   margin: 1%;
   background-color: #112B0A;
   color: #8C9F98;
+  font-size: 25px;
 }
 
-.maul-col:hover {
+.maul-col {
   flex: 40%;
   margin: 1%;
   background-color: red;
@@ -52,10 +55,10 @@ h2{
   font-size:25px;
 }
 
-.vader-col:hover {
+.vader-col {
   flex: 40%;
   margin: 1%;
-  background-color: darkred;
+  background-color: #8c000f;
   border-radius: 20px;
   border: 4px solid black;
   font-size: 25px;
@@ -66,6 +69,7 @@ h2{
   margin: 1%;
   background-color: lightblue;
   border: 4px solid black;
+  font-size: 25px;
 }
 
 .menu-title {
@@ -76,11 +80,12 @@ h2{
 .main-title {
   font-family: 'Pathway Gothic One',cursive;
   background-color: #FFE81F;
-  width: 50%;
+  width: 80%;
   margin: 0 auto 1em auto;
   border: 4px solid black;
   border-radius: 20px;
   text-align: center;
+  font-size: 28px;
 }
 
 
